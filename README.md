@@ -62,8 +62,29 @@ User → SageMaker Studio Notebook
 → Model Deployed as Endpoint
 → Prediction Response Returned
 
+---
 
-(An architecture diagram will be added in `/images`)
+## 📸 Project Setup & Execution Screenshots
+
+### 1️⃣ Jupyter Space Creation
+This screenshot shows the creation of a dedicated SageMaker Jupyter space named **MLOps-pipeline**, which is used to run the entire MLOps workflow.
+
+![Jupyter Space Creation](images/01_create_jupyter_space_mlops_pipeline.png)
+
+---
+
+### 2️⃣ IAM Role Configuration
+This screenshot confirms that the required IAM policies were successfully attached to the SageMaker execution role to enable access to AWS services.
+
+![IAM Policies Attached](images/02_iam_policies_attached_success.png)
+
+---
+
+### 3️⃣ Notebook Execution in SageMaker Studio
+This screenshot shows the Jupyter notebook running inside SageMaker Studio where the fraud detection MLOps pipeline code is executed.
+
+![Notebook Execution](images/03_sagemaker_jupyter_notebook_run.png)
+
 
 ---
 
