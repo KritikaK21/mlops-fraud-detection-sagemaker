@@ -36,8 +36,11 @@ Raw Data (S3)
 [Step 4] Condition Check → IF AUC ≥ 0.7 → Continue | ELSE → Stop
      ↓
 [Step 5] Bias Detection (SageMaker Clarify - Gender Bias)
+     ↓
 [Step 6] Explainability Check (SHAP Values)
+     ↓
 [Step 7] Model Registration (SageMaker Model Registry)
+     ↓
 [Step 8] Real-Time Endpoint Deployment (via AWS Lambda)
 ```
 
